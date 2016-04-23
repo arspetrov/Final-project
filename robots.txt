@@ -1,0 +1,15 @@
+User-agent: Yandex
+Disallow: /admin
+Disallow: /img
+Host: robotstxt.org.ru
+
+User-agent: Googlebot
+Disallow: /admin
+Disallow: /img
+
+User-agent: *
+Crawl-delay: 30
+Disallow: /admin
+Disallow: /img
+
+Sitemap: http://robotstxt.org.ru/sitemap.xml
