@@ -1,0 +1,40 @@
+body {
+    background:#505D6E url(../images/btvss.jpg) no-repeat center center fixed;
+    min-height:100%;
+}
+
+.mainDiv {
+    display: block;
+    z-index: 1;
+    min-height:420px;
+    width: 100%;
+    overflow:auto;
+    height:100%;
+}
+
+@media (min-width: 700px) {
+    .mainDiv { padding-top:660px;}
+}
+@media (max-width: 700px) {
+    .mainDiv {
+        font-size:1.2em;
+    }
+}
+
+.btn{
+    color:#333;
+    text-shadow: none;
+    text-decoration: none;
+    border-radius: 3px;
+    border:0 none;
+    padding:16px 30px;
+    font-size:inherit;
+    color:rgba(255,255,255,.8);
+}
+body .btn-default {
+    background: rgba(0,0,0,.4);
+}
+body .btn-default:hover {
+    background: rgba(0,0,0,.6);
+    color:#fff;
+}
