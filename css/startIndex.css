@@ -13,11 +13,12 @@ body {
 }
 
 @media (min-width: 700px) {
-    .mainDiv { padding-top:660px;}
+    .mainDiv { padding-top:560px;}
 }
 @media (max-width: 700px) {
     .mainDiv {
         font-size:1.2em;
+    .mainDiv { padding-top:260px;}
     }
 }
 
@@ -30,6 +31,7 @@ body {
     padding:16px 30px;
     font-size:inherit;
     color:rgba(255,255,255,.8);
+    margin-bottom: 100px;
 }
 body .btn-default {
     background: rgba(0,0,0,.4);
@@ -37,4 +39,40 @@ body .btn-default {
 body .btn-default:hover {
     background: rgba(0,0,0,.6);
     color:#fff;
+}
+
+.logo {
+    /*display: block;*/
+    width: auto;
+    /*position: absolute;*/
+    text-align: center;
+}
+.logo img{
+    position: relative;
+    margin: 0 auto;
+    /*float: left;*/
+    top: 20px;
+}
+.bothImage {
+    /*position: absolute;*/
+    position: relative;
+    right: 0;
+    -webkit-animation: turn 2s infinite;
+    animation: turn 2s infinite;
+}
+.frontImage {
+    z-index: 2;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+@-webkit-keyframes turn {
+    to {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+@keyframes turn {
+    to {
+        transform: rotateY(360deg);
+    }
 }
