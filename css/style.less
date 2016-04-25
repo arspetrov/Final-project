@@ -1,0 +1,303 @@
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 16px;
+}
+
+.headerDiv {
+  background-color: #004876;
+  padding: 15px 0;
+  color: #a9977d;
+}
+.headerDiv a {
+  color: #a9977d;
+}
+
+.enterAndRegButtons {
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 10;
+}
+
+.enterAndRegButtons a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #a9977d;
+}
+
+.socMedia {
+  float: right;
+}
+.socMedia > a {
+  font-size: 26px;
+  margin-left: 8px;
+}
+
+.enterOrRegButton ,
+.mainMenueButton {
+  background-color: transparent;
+  border: medium none;
+  font-size: 26px;
+}
+.mainMenueButton {
+  color: #fff;
+  padding: 8px 15px 0;
+}
+
+.logo {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+}
+
+main {
+  background: linear-gradient(to top, #4AAAF7, #fff);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.mainMenue {
+  background-color: #3797bf;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.mainMenue a {
+  color: #fff;
+  padding: 15px;
+  display: block;
+  -webkit-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  text-decoration: none;
+}
+.mainMenue a:hover {
+  background-color: #2787af;
+  text-shadow: 1px 1px 2px #fff;
+}
+.mainMenue ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+  text-transform: uppercase;
+}
+.top_contacts {
+  background-color: #2787af;
+  float: right;
+  font-size: 30px;
+  line-height: 53px;
+  padding: 0 15px;
+}
+.mainMenue ul li {
+  display: inline-block;
+}
+.mainMenue ul {
+  z-index: 12;
+}
+
+.sprite {
+  display:inline-block;
+  background-image: url(images/spritesheet.png) !important;
+  background-repeat: no-repeat;
+  /*display: block;*/
+  /*margin:20px;*/
+}
+.sprite-Add {
+  width: 24px;
+  height: 24px;
+  background-position: 0 0;
+}
+.sprite-Clock {
+  width: 24px;
+  height: 24px;
+  background-position: -10px -98px;
+}
+.sprite-Delete {
+  width: 24px;
+  height: 24px;
+  background-position: -10px -142px;
+}
+
+h1 {
+  color: #a9977d;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "RobotoCondensedLight";
+  padding: 16px 0;
+}
+.animat {
+  display: block;
+  height: 60px;
+  animation: animat 6s ease infinite;
+  font-size: 28px;
+}
+@keyframes animat{
+  0%{
+    font-size: 28px;
+  }
+  50%{
+    font-size: 40px;
+  }
+  100%{
+    font-size: 28px;
+  }
+}
+
+.sliderContainer img {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+/* поз-е карусели для того чтобы задать высоту (располож-е) кнопкам */
+.sliderContainer {
+  position: relative;
+}
+
+.btnNext, .btnPrev {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 90%;
+  color: #a9977d;
+  cursor: pointer;
+  font-size: 50px;
+  padding: 0 25px;
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+}
+.btnNext {
+  right: 20px;
+}
+.btnNext:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.btnPrev {
+  left: 20px;
+}
+.btnPrev:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.sliderNames {
+  text-transform: uppercase;
+  color: #fff;
+}
+.sliderNames:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+.jumboContainer article h3 {
+  color: #2787af;
+}
+.jumboContainer .transformHeight {
+  /*max-height: 50px;*/
+  display: block;
+  position: relative;
+  /*padding-top: 10px;*/
+}
+.jumboContainer article p {
+  color: #a9977d;
+  font-size: 16px;
+}
+.jumboContainer article:hover a {
+  text-decoration: none;
+}
+.jumboContainer .datetime {
+  font-size: 10px;
+}
+
+.transform2d {
+  position:relative;
+  display:block;
+  margin-top:-30px;
+  /*margin-bottom: 20px;*/
+  height: 50px;
+}
+.transform2d:hover {
+  transform:skewx(-15deg) scale(1.3);
+}
+.transform2d:hover a {
+  text-decoration: none;
+}
+.transform2d a {
+  font-size: 40px;
+  color: #a9977d;
+}
+
+.backTop {
+  display: block;
+  right: 50px;
+  position: fixed;
+  bottom: 20px;
+  margin-left: 20px;
+  z-index: 10;
+  color: #2787af;
+}
+.backTop a {
+  text-decoration: none;
+}
+.backTop .backTopButton {
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-color: #ddd;
+  background-image: url("images/up-arrow.png");
+  opacity: 0.7;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #a9977d;
+  font-size: 50px;
+}
+.backTop .backTopLink {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+.backTop .backTopButton:hover  {
+  opacity: 0.9;
+}
+.backTop a:hover {
+  text-decoration: none;
+}
+.backTop:hover {
+  text-shadow: 1px 1px 2px #fff;
+}
+
+.footer {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.footer .footerDiv {
+  background-color: #004876;
+  padding: 15px 0;
+  color: #a9977d;
+}
+
+.jumboButton {
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+
+.bothImage {
+  position: absolute;
+  right: 0;
+  -webkit-animation: turn 2s infinite;
+  animation: turn 2s infinite;
+}
+.frontImage {
+  z-index: 2;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+@-webkit-keyframes turn {
+  to {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+@keyframes turn {
+  to {
+    transform: rotateY(360deg);
+  }
+}
