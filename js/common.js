@@ -64,3 +64,21 @@ $(document).ready(function() {
     });
 
 });
+
+
+
+function print(text) {
+    var intervalId = setInterval(printSymbol, 50);
+    var index = 0;
+
+    function printSymbol() {
+        if (index > text.length - 1) {
+            clearInterval(intervalId);
+        } else {
+            document.getElementById("area").insertAdjacentText('beforeend', text[index++]);
+        }
+    }
+}
+document.getElementById("printer").addEventListener("click", function() {
+    print(document.getElementById("area1").value);
+}, false);
