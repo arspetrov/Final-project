@@ -16,17 +16,212 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
     <!--стрелки с fortawesome, карусель, всплывающие окна-->
-    <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
-    <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="js/libs/font-awesome-4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/libs/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="js/libs/owl-carousel/owl.carousel.css">
 
     <!--стили-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
+<header class="header">
+    <div class="headerDiv">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <button class="enterOrRegButton hidden-sm hidden-md hidden-lg"><i class="fa fa-user"></i></button>
+                    <div class="enterAndRegButtons">
+                        <a href="">Вхід</a> /
+                        <a href="">Реєстрація</a>
+                    </div>
+                    <div class="socMedia">
+                        <a href="https://www.facebook.com/WarnerBrosPicturesUkraine"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="http://vk.com/wbpicturesua"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/wbpicturesua/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/wbpicturesua"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/channel/UCpIO3wXxFYjotbX8xRzUqCw"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <a href="" class="logo">
+                    <img src="images/logo_kinomania.png" alt="kinomania.com.ua" title="kinomania.com.ua">
+                    <!--<img class="img-responsive bothImage frontImage" src="images/logo_kinomania.png" alt="kinomania.com.ua" title="kinomania.com.ua">-->
+                    <!--<img class="img-responsive bothImage" src="images/logo_kinomania.png" alt="kinomania.com.ua" title="kinomania.com.ua">-->
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <a href="http://www.warnerbros.com/" target="_blank" class="logo">
+                    <img src="images/logo_wb.png" alt="warnerbrosrecords.com" title="warnerbrosrecords.com">
+                </a>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <nav class="mainMenue clearfix">
+                    <button class="mainMenueButton hidden-md hidden-lg"><i class="fa fa-bars"></i></button>
+                    <ul class="">
+                        <li class="active"><a href="" target="_blank">фільми</a></li>
+                        <li><a href="" target="_blank">новини</a></li>
+                        <li><a href="" target="_blank">конкурси</a></li>
+                        <li><a href="" target="_blank">кінотрейлери</a></li>
+                        <li><a href="" target="_blank">про нас</a></li>
+                        <li class="sprite sprite-Add"></li>
+                        <li class="sprite sprite-Clock"></li>
+                        <li class="sprite sprite-Delete"></li>
+                    </ul>
+                    <!--<div class="top_contacts">knopka</div>-->
+
+                    <!--<ul class="">-->
+                    <!--<i class="sprite sprite-Add"></i>-->
+                    <!--<i class="sprite sprite-Clock"></i>-->
+                    <!--<i class="sprite sprite-Delete"></i>-->
+                    <!--</ul>-->
+
+                </nav>
+                <h1 class="animat">фільми у прокаті:</h1>
+                <div class="sliderContainer">
+                    <div class="btnNext"><i class="fa fa-angle-right"></i></div>
+                    <div class="btnPrev"><i class="fa fa-angle-left"></i></div>
+                    <div class="carousel">
+                        <div class="slide_item">
+                            <a class="fancybox" data-fancybox-group="group" href=""><img src="images/bvs.jpg" alt=""></a>
+                            <p class="text-center"><a href="" class="sliderNames">бетмен проти супермена</a></p>
+                        </div>
+                        <div class="slide_item">
+                            <a class="fancybox" data-fancybox-group="group" href=""><img src="images/conjuring.jpg" alt=""></a>
+                            <p class="text-center"><a href="" class="sliderNames">закляття 2</a></p>
+                        </div>
+                        <div class="slide_item">
+                            <a class="fancybox" data-fancybox-group="group" href=""><img src="images/tarzan.jpg" alt=""></a>
+                            <p class="text-center"><a href="" class="sliderNames">легенда про тарзана</a></p>
+                        </div>
+                        <div class="slide_item">
+                            <a class="fancybox" data-fancybox-group="group" href=""><img src="images/mbf.jpg" alt=""></a>
+                            <p class="text-center"><a href="" class="sliderNames">до зустрічі з тобою</a></p>
+                        </div>
+                        <div class="slide_item">
+                            <a class="fancybox" data-fancybox-group="group" href=""><img src="images/lights-out.jpg" alt=""></a>
+                            <p class="text-center"><a href="" class="sliderNames">не вимикай світло</a></p>
+                        </div>
+                        <div class="slide_item">
+                            <a class="fancybox" data-fancybox-group="group" href=""><img src="images/zagin.jpg" alt=""></a>
+                            <p class="text-center"><a href="" class="sliderNames">загін самогубців</a></p>
+                        </div>
+                        <div class="slide_item">
+                            <a class="fancybox" data-fancybox-group="group" href=""><img src="images/wardogs.jpg" alt=""></a>
+                            <p class="text-center"><a href="" class="sliderNames">хлопці зі стволами</a></p>
+                        </div>
+                        <div class="slide_item">
+                            <a class="fancybox" data-fancybox-group="group" href=""><img src="images/fbwf.png" alt=""></a>
+                            <p class="text-center"><a href="" class="sliderNames">фантастичні звірі і де їх шукати</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="container jumboContainer">
+            <!--<div class="trans">-->
+            <!--<h1 class="transform2d"><a href="">новини</a></h1>-->
+            <!--</div>-->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 transformHeight">
+                    <h1 class="transform2d"><a href="">новини</a></h1>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+                    <a href=""><img class="img-responsive" src="images/betmanNews.jpg" alt=""></a>
+                    <p class="datetime">13 квітня 2016</p>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4">
+                    <article><a href="" alt="">
+                        <h3>Бен Аффлек стане режисером сольного фільму про Бетмена</h3>
+                        <p>Офіційно підтверджено, що режисером сольного фільму про Бетмена стане, Бен Аффлек.
+                            Актор вже представив студії готовий сценарій фільму.
+                            Офіційна дата виходу поки що не відома.</p></a>
+                    </article>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+                    <a href=""><img class="img-responsive" src="images/madMaksNews.jpg" alt=""></a>
+                    <p class="datetime">08 лютого 2016</p>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4">
+                    <article><a href="" alt="">
+                        <h3>«Шалений Макс: Дорога гніву» повернеться на великі екрани напередодні вручення «Оскара»</h3>
+                        <p>Прокат одного з найпопулярніших фільмів 2015 року, екшн-фільм Джорджа Міллера «Шалений Макс:
+                            Дорога гніву» поновиться на тиждень: з 25 лютого по 2 березня.</p></a>
+                    </article>
+                </div>
+
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+                    <a href=""><img class="img-responsive" src="images/madMaksNews14.jpg" alt=""></a>
+                    <p class="datetime">14 січня 2016</p>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4">
+                    <article><a href="" alt="">
+                        <h3>"Шалений Макс: Дорога гніву" здобув 10 номінацій на премію "Оскар"</h3>
+                        <p>"Шалений Макс: Дорога гніву" здобув 10 номінацій на премію "Оскар".
+                            Вітаємо всіх фанатів картини та сподіваємося на значну кількість золотих статуеток у активі команди фільму.
+                            Імена лауреатів стануть відомі 28 лютого під час урочистої церемонії в Голлівуді.</p></a>
+                    </article>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+                    <a href=""><img class="img-responsive" src="images/krid.jpg" alt=""></a>
+                    <p class="datetime">11 січня 2016</p>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4">
+                    <article><a href="" alt="">
+                        <h3>Ще одна нагорода, на шляху до "Оскару", в активі фільму "Крід: Спадок Роккі Бальбоа"</h3>
+                        <p>Сільвестер Сталлоне отримав премію "Золотий глобус" в номінації "Кращий актор другого плану".</p></a>
+                    </article>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 jumboButton">
+                    <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Дізнатись більше</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footerDiv">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p>© 2016 KINOMANIA, Inc. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="backTop">
+        <a href="#top">
+            <div class="backTopButton"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+            <p class="backTopLink">Вгору</p>
+        </a>
+    </div>
+</footer>
+
+<script src="js/libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="js/libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="js/libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="js/libs/waypoints/waypoints-1.6.2.min.js"></script>
+<script src="js/libs/scrollto/jquery.scrollTo.min.js"></script>
+<script src="js/libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/libs/countdown/jquery.plugin.js"></script>
+<script src="js/libs/countdown/jquery.countdown.min.js"></script>
+<script src="js/libs/countdown/jquery.countdown-ru.js"></script>
+<script src="js/libs/landing-nav/navigation.js"></script>
+<script src="js/common.js"></script>
 </body>
+</html>
